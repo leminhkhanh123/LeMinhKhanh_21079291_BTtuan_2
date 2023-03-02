@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td{
+            border: 2px solid #D8D1B8;
+            border-collapse:collapse;
+            border-style: ridge;
+            
+        }
+        table{
+            width: 30%;
+            height: 20%;
+        }
+        th,td{
+            text-align: center;  
+           
+        }
+        #k1{
+            background-color: #FA7F08;
+        }
+        #k2{
+            background-color: #FFFF01;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <table >
+        <tr>
+            <td>1</td>
+            <td colspan="4" >2</td>
+
+        </tr>
+        <tr>
+            <td rowspan="3">3</td>
+            
+            <td id="k1">4</td>
+            <td id="k1">5</td>
+            <td id="k2" rowspan="2" colspan="2">6</td>
+        </tr>
+        <tr id="k1">
+            
+            <td>7</td>
+            <td>8</td>
+
+        </tr>
+        <tr id="k2">
+            
+            <td colspan="2">9</td>
+            
+            <td colspan="2">10</td>
+            
+        </tr>
+    </table>
+</body>
+</html>

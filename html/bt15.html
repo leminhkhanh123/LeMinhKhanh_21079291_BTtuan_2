@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai15</title>
+    <link rel="stylesheet" href="../2_21079291_LeMinhKhanh/css/form.css">
+    <style>
+        #id {
+            margin-left: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="khung">
+        <h2>Contact Us</h2><br>
+
+        <fieldset>
+            <legend id="id">Your message</legend>
+            <table>
+                <tr>
+                    <td><label for="emailTo">To</label></td>
+                    <td><input type="text" name="txtTo" id="emailTo" readonly="readonly" size="20" value="Example Cafe"></td>
+                </tr>
+                <tr>
+                    <td><label for="emailFrom">Your email</label></td>
+                    <td><input type="email" name="txtFrom" id="emailFrom" size="20" tabindex="1" maxlength="250"></td>
+                </tr>
+                <tr>
+                    <td><label for="Message">Message</label></td>
+                    <td><textarea name="txtBody" id="Message" cols="50" rows="10"></textarea></td>
+                </tr>
+            </table>
+
+        </fieldset>
+        <fieldset>
+            <legend id="id">How you found us:</legend>
+            <table>
+                <tr>
+                    <td><label for="ask">How did you hear of us?</label></td>
+                    <td>
+                        <select name="ask">
+                                <option value="1">Google</option>
+                                <option value="2">....</option>
+                            </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="letter">Newsletter</label></td>
+                    <td><input type="checkbox" name="check" checked>Ensure this box is checked if you would be like to receive email updates</td>
+                </tr>
+
+            </table>
+        </fieldset>
+
+        <input type="submit" value="Send message">
+    </div>
+    <div id="khung">
+        <fieldset>
+            <legend id="id"><i>Contact information</i></legend>
+            <table>
+                <tr>
+                    <td><label for="fname">First name:</label></td>
+                    <td><input type="text" name="txtFName" id="fname" size="20" maxlength="250"></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Last name:</label></td>
+                    <td><input type="text" name="txtLName" id="lname" size="20" maxlength="250"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail:</label></td>
+                    <td><input type="email" name="txtEmail" id="email" size="20" maxlength="250"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend id="id"><i>Competition Question</i></legend>
+            <label for="choose">How tall is the Eiffel Tower in Paris, France?</label><br>
+            <input type="radio" name="txtChoose" id="choose"> <span>584 ft</span><br>
+            <input type="radio" name="txtChoose" id="choose"> <span>784 ft</span><br>
+            <input type="radio" name="txtChoose" id="choose"> <span>984 ft</span><br>
+            <input type="radio" name="txtChoose" id="choose"> <span>1184 ft</span><br>
+        </fieldset>
+        <fieldset>
+            <legend id="id"><i>Tiebreaker Question</i></legend>
+            <label for="ask">In 25 words or less, say why you would like to win $10.000:</label><br>
+            <textarea name="txtBox" id="ask" cols="40" rows="10" tabindex="2"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend id="id"><i>Enter competition</i></legend>
+            <input type="submit" value="Enter Competition">
+        </fieldset>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+    *{
+            box-sizing: border-box;
+            margin: auto;
+        }
+        #khung{
+            width: 800px;
+            height: 900px;
+            margin-top: 20px;
+            -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+            box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+            padding: 10px;
+        }

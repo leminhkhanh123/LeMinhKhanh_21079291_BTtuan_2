@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai17b</title>
+    <link rel="stylesheet" href="../LeMinhKhanh_21079291_BTtuan_2/css/form.css>
+</head>
+
+<body>
+    <div id="khung">
+        <label for="browser">Browser:</label>
+        <input type="text" name="txtBrowser" id="browser" value="" size="20" maxlength="20" list="tech">
+        <datalist id="tech">
+            <option value="Google">
+            <option value="Chrome">
+            <option value="...">
+        </datalist><br><br>
+        <label for="user">Username:</label>
+        <input type="text" name="txtUser" id="user"><br><br>
+        <label for="encr">Encryption:</label>
+        <select name="txtEncr" id="encr">
+            <option value="1">2048 (High Grade)</option>
+        </select><br><br>
+        <span>0</span>
+        <input type="range" name="txtRange" id="get" min="0" max="100" step="any">
+        <span>100</span><br><br>
+        <label for="birth">BirthDay:</label>
+        <input type="date" name="txtDate" id="birth"><br><br>
+        <label for="color">Select your favorite color:</label>
+        <input type="color" name="txtColor" id="color"><br><br>
+        <label for="month">Birthday (month and year):</label>
+        <input type="month" name="txtMonth" id="month"><br><br>
+        <label for="week">Select a week:</label>
+        <input type="week" name="txtWeek" id="week"><br><br>
+        <label for="time">Select a time:</label>
+        <input type="time" name="txtTime" id="time"><br><br>
+        <label for="daytime">Birthday (date and time):</label>
+        <input type="datetime" name="txtDaytime" id="daytime"><br><br>
+        <label for="mail">E-mail:</label>
+        <input type="email" name="txtMail" id="mail"><br><br>
+        <label for="search">Search Google:</label>
+        <input type="search" name="txtSearch" id="search"><br><br>
+        <label for="phone">Telephone</label>
+        <input type="tel" name="txtPhone" id="phone"><br><br>
+        <label for="page">Add your homepage:</label>
+        <input type="url" name="txtPage" id="page"><br><br>
+        <input type="submit" value="Submit"><br><br>
+        <footer><b>Note:</b> The datalist tag is not supported in Safari or IE9</footer>
+    </div>
+
+</body>
+
+</html>
